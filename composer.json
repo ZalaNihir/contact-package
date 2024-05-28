@@ -1,0 +1,26 @@
+{
+    "name": "nihirz/contact",
+    "description": "This will create the contact form submition for you for free you can use it in your system.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name":"Nihir Zala",
+            "email":"zalanihir8866@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Nihir\\Contact\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Nihir\\Contact\\ContactServiceProvider"
+            ]
+        }
+    }
+}
